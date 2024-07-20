@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+/*NAVBAR*/
+#navbar {
+    margin-top: 20px;
+}
+
+.nav_list {
+    padding: 0 25px;
+}
+
+.nav_list li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.nav_list li a {
+    text-decoration: none;
+    color: #5f6368;
+}
+
+.nav_list li a:hover {
+    text-decoration: underline
+}
+
+#socialbar {
+    text-align: right;
+}
+
+/*CORPO DO SITE*/
+
+#body {
+    text-align: center;
+}
+
+#google_logo {
+    padding-top: 7%;
+    margin-bottom: 25px;
+}
+
+#input_box {
+    width: 43vw;
+    height: 60px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search_input {
+    width: 100%;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    padding: 0 50px;
+    font-size: 16px;
+    box-shadow: 0px 0px 5px #DDD;
+}
+
+#mic-icon,
+#search-icon,
+#keyboard-icon {
+    position: absolute;
+    top: 15px;
+    font-size: 18px;
+}
+
+#search-icon {
+    left: 20px;
+}
+
+#mic-icon {
+    right: 20px;
+}
+
+#keyboard-icon {
+    right: 55px;
+}
+
+#body input[type="submit"] {
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    color: #5f6368;
+    border-radius: 4px;
+    height: 34px;
+    margin: 15px 5px;
+    padding: 0 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#body input[type="submit"]:hover {
+    color: #333;
+    border-color: #333;
+}
+
+/*FOOTER*/
+
+footer {
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    bottom: 0;
+    height: 47px;
+    width: 100%;
+    background-color: #F2F2F2;
+    border: 1px solid #E4E4E4;  
+}
+
+#left_bar,
+#right_bar {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+#right_bar {
+    position: absolute;
+    right: 0;
+}
+
+#left_bar {
+    position: absolute;
+}
+
+#footer_brasil {
+    width: 100%;
+    position: absolute;
+    bottom: 47px;
+    background-color: #F2F2F2;
+    padding: 10px 0px;
+}
+
+#link_brasil {
+    margin-left: 18px;
+    color: #5f6368;
+}
